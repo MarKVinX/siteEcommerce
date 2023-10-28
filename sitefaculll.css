@@ -41,7 +41,7 @@ footer p {
 #about{
     font-size:17px;
 }
-
+  
 #products:hover {
     color: #fdfd00;
 }
@@ -54,12 +54,14 @@ footer p {
 
 #logo {
     width: 5%;
+    cursor: pointer;
+    color: #fff;
 }
 
 #car_store {
     color: #fff;
     font-size: 20px;
-    margin-left: 30px;
+    margin-left: 45%;
     cursor: pointer;
 }
 #car_store:hover {
@@ -69,7 +71,7 @@ footer p {
 #person {
     color: #fff;
     font-size: 20px;
-    margin-right: 30px;
+    margin: 0 0 0 -5%;
     cursor: pointer;
 }
 #person:hover {
@@ -78,17 +80,18 @@ footer p {
 }    
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    top: 800px;
-    position: absolute; 
+    display: block;
+    margin: auto;
+    margin-top: 40%;
+    
+   
+ 
 }
 
 .row {
     display: flex;
     justify-content: center;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .card {
@@ -107,10 +110,10 @@ footer p {
 }
 .btn {
     background-image: linear-gradient(to bottom , #222853 50% , rgb(4, 47, 134));
-    color: white;
+    color: rgb(255, 255, 255);
 }
 .btn:hover {
-    background: #22833c;
+    background-color: #22833c;
     color: rgb(255, 255, 255);
 }
 /* slides */

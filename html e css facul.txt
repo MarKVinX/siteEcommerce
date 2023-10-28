@@ -122,17 +122,17 @@
                         </div>
                     </div>
                     <div class="card col-md-3">
-                        <img src="unif_santos1.jpg">
+                        <img src="unif_mcity2.jpg">
                         <div class="card-body">
-                            <p class="card-descricao">Camisa Umbro Santos I 2023 N°10</p>
+                            <p class="card-descricao">Camisa Puma Manchester City II 2023 N°10</p>
                             <h5 class="card-title">R$ 89,90</h5>
                             <a href="" class="btn"><i class="bi bi-cart-plus me-2"></i>Adicionar</a>
                         </div>
                     </div>
                     <div class="card col-md-3">
-                        <img src="unif_rbbragantino1.jpg">
+                        <img src="unif_mcity2.jpg">
                         <div class="card-body">
-                            <p class="card-descricao">Camisa New Balance Red Bull Bragantino I 2023 N°10</p>
+                            <p class="card-descricao">Camisa Puma Manchester City II 2023 N°10</p>
                             <h5 class="card-title">R$ 89,90</h5>
                             <a href="" class="btn"><i class="bi bi-cart-plus me-2"></i>Adicionar</a>
                         </div>
@@ -148,3 +148,205 @@
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+css
+
+
+
+
+footer {
+    text-align: center;
+    background-image: linear-gradient(to bottom , #b8860b 50% , rgb(128, 98, 2));
+    color: #FFF;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    margin-bottom: 0;
+} 
+
+/* Navbar */
+.navbar img {
+    width: 160px;
+    margin-left: 2%;
+}
+.navbar {
+    background-image: linear-gradient(to bottom , #997206 50% , rgb(82, 74, 4));
+    padding: 5px 0;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px 0 30px;
+    font-size: 25px;
+}
+
+#contact {
+    margin-left: 30px;
+    font-size: 17px;
+}
+#products {
+    
+    font-size: 17px;
+}
+#about{
+    font-size:17px;
+}
+  
+#products:hover {
+    color: #fdfd00;
+}
+#about:hover {
+    color: #fdfd00;
+}
+#contact:hover {
+    color: #fdfd00;
+}
+
+#logo {
+    width: 5%;
+    cursor: pointer;
+    color: #fff;
+}
+
+#car_store {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 45%;
+    cursor: pointer;
+}
+#car_store:hover {
+    color: #fdfd00;
+    font-size: 20px;
+}
+#person {
+    color: #fff;
+    font-size: 20px;
+    margin: 0 0 0 -5%;
+    cursor: pointer;
+}
+#person:hover {
+    color: #fdfd00;
+    font-size: 20px;
+}    
+
+.container {
+    display: block;
+    margin: auto;
+    margin-top: 40%;
+    
+   
+ 
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.card {
+    width: 300px;
+    height: 500px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.btn {
+    background-image: linear-gradient(to bottom , #222853 50% , rgb(4, 47, 134));
+    color: white;
+}
+.btn:hover {
+    background: #22833c;
+    color: rgb(255, 255, 255);
+}
+/* slides */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(72deg, #ffffff 1%, #ffffff 99%);
+}
+.content {
+    height: 520px;
+    width: 935px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.navigation {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+.bar {
+    width: 70px;
+    height: 17px;
+    border: 2px solid #fff;
+    margin: 6x;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s;
+}
+.bar:hover {
+    background-color: #fff;
+}
+
+input {
+    display: none;
+}
+.slides {
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+.slide {
+    width: 20%;
+    transition: .6s;
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+}    
+#slide1:checked ~ .s1 {
+    margin-left: 0;
+}
+#slide2:checked ~ .s1 {
+    margin-left: -20%;
+}
+#slide3:checked ~ .s1 {
+    margin-left: -40%;
+}
+#slide4:checked ~ .s1 {
+    margin-left: -60%;
+}
+#slide5:checked ~ .s1 {
+    margin-left: -80%;
+}
+/* slides */
